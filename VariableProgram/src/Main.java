@@ -13,11 +13,13 @@ public class Main {
 		double d = 3.1416;
 		boolean z = false;
 		char symbol = '@';
+		String name = "Roberto Jiménez";
 		
 		System.out.println("La variable x contiene: " + x);
 		System.out.println("Mientras la variable y: " + y);
 		System.out.println("Valiable doble: " + d);
 		System.out.println("Variable booleana: " + z);
 		System.out.println("Variable char: " + symbol);
+		System.out.println("Variable String: " + name);
 	}
 }
