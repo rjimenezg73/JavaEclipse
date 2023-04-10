@@ -7,7 +7,7 @@ public class Main {
 		//		|| = (OR) Por lo menos una de las condiciones debe de ser verdadera
 		//		! = (NOT) Invierte el valor boleano de la condición
 		
-		System.out.println("Operadores Lógicos\n");
+		System.out.println("Operadores Lógicos - AND (&&)\n");
 		
 		int temp = 19;
 		
