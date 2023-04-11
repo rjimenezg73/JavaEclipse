@@ -81,6 +81,16 @@ public class Patterns {
 			System.out.println();
 		}
 		
+		// Inverted Half Rectangle with numbers
+		System.out.println("\nInverted Half Rectangle with numbers");
+		// outer loop
+		for(int i = 1; i <= m; i++) {
+			// inner loop
+			for(int j = 1; j <= m-i+1; j++) {
+				System.out.print(j);
+			}
+			System.out.println();
+		}
 		
 	}
 }
