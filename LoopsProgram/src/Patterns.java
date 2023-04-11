@@ -92,5 +92,17 @@ public class Patterns {
 			System.out.println();
 		}
 		
+		// Floy's Triangle
+		System.out.println("\nFloy's Triangle");
+		int number = 1;
+		// outer loop
+		for(int i = 1; i <= n; i++) {
+			// inner loop
+			for(int j =1; j <= i; j++) {
+				System.out.print(number + "\t");
+				number++;
+			}
+			System.out.println();
+		}
 	}
 }
