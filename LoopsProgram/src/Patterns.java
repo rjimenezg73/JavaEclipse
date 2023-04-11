@@ -4,8 +4,8 @@ public class Patterns {
 
 	public static void main(String[] args) {
 		int n = 4;
-		int m = 5;
-		char sim = '^';
+		int m = 7;
+		char sim = '@';
 		
 		//Complete Rectangle
 		System.out.println("Complete Rectangle");
@@ -32,6 +32,18 @@ public class Patterns {
 			}
 			System.out.println();
 		}
+		
+		// Half Rectangle
+		System.out.println("\nHalf Rectangle");
+		// outer loop
+		for(int i = 1; i <= m; i++) {
+			// inner loop 
+			for(int j = 1; j <= i; j++) {
+				System.out.print(sim);
+			}
+			System.out.println();
+		}
+		
 	}
 
 }
