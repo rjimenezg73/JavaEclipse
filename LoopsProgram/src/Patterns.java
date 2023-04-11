@@ -55,5 +55,20 @@ public class Patterns {
 			System.out.println();
 		}
 		
+		// Rotate Inverse Half Rectangle
+		System.out.println("\nRotate Inverse Half Rectangle");
+		// outer loop
+		for(int i = 1; i <= m; i++) {
+			// inner loop - space print
+			for(int j = 1; j <= m-i; j++) {
+				System.out.print(" ");
+			}
+			// inner loop - Symbol print
+			for(int j = 1; j <= i; j++) {
+				System.out.print(sim);
+			}
+			System.out.println();
+		}
+		
 	}
 }
