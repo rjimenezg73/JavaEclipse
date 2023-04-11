@@ -43,7 +43,17 @@ public class Patterns {
 			}
 			System.out.println();
 		}
+	
+		// Inverted Half Rectangle
+		System.out.println("\nInverted Half Rectangle");
+		// outer loop
+		for(int i = m; i >= 1; i--) {
+			// inner loop
+			for(int j = 1; j <= i; j++) {
+				System.out.print(sim);
+			}
+			System.out.println();
+		}
 		
 	}
-
 }
