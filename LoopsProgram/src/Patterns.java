@@ -104,5 +104,21 @@ public class Patterns {
 			}
 			System.out.println();
 		}
+		
+		// 0-1 Triangle
+		System.out.println("\n0-1 Triangle");
+		// outer loop
+		for(int i = 1; i <= m; i++) {
+			// inner loop
+			for(int j = 1; j <= i; j++) {
+				if((i + j) % 2 == 0) { // even
+					System.out.print("1");
+				}else { // odd
+					System.out.print("0");
+				}
+			}
+			System.out.println();
+		}
+		
 	}
 }
