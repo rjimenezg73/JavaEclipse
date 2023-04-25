@@ -18,7 +18,11 @@ public class TwoDArrays {
 		cars[2][2] = "Tesla";
 		*/
 		
-		String[][] cars = {{"Camaro","Corvette","Silverado"},{"Mustang","Ranger","F-150"},{"Ferrari","Lambo","Tesla"}};
+		String[][] cars = {
+							{"Camaro","Corvette","Silverado"},
+							{"Mustang","Ranger","F-150"},
+							{"Ferrari","Lambo","Tesla"}
+						};
 		
 		for(int i = 0; i < cars.length; i++) {
 			System.out.println();
