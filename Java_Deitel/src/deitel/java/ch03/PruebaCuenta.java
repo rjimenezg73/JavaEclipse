@@ -6,6 +6,7 @@ public class PruebaCuenta
 	
 	public static void main(String[] args) 
 	{
+		/*
 		Scanner entrada = new Scanner(System.in);
 		Cuenta miCuenta = new Cuenta();
 		
@@ -27,6 +28,14 @@ public class PruebaCuenta
 		Cuenta obj = new Cuenta();
 		System.out.println("Scanner: " + entrada2);
 		System.out.println("Tipo obj: " + obj);
+		*/
+		
+		Cuenta cuenta1 = new Cuenta("Peter Pica Cu");
+		Cuenta cuenta2 = new Cuenta("Roberto Jimenez");
+		
+		System.out.printf("El nombre de cuenta1 es: %s%n", cuenta1.obtenerNombre());
+		System.out.printf("El nombre de cuenta2 es: %s%n", cuenta2.obtenerNombre());
+
 	}
 
 }
