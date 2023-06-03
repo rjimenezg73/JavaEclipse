@@ -20,6 +20,13 @@ public class PruebaCuenta
 		
 		// Muestra el nombre almacenado en el objeto Cuenta
 		System.out.printf("El nombre en el objeto miCuenta es: %n%s%n",miCuenta.obtenerNombre());
+		
+		// Quiero visualizar que valores tienen los tipos de datos por referencia si éstos no son 
+		// inicializados
+		Scanner entrada2 = new Scanner(System.in);
+		Cuenta obj = new Cuenta();
+		System.out.println("Scanner: " + entrada2);
+		System.out.println("Tipo obj: " + obj);
 	}
 
 }
